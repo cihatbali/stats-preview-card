@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background: hsl(233, 47%, 7%);
+}
+
 
 main {
-    width: 1365px;
-    height:100vh;
+    height:98vh;
     background: hsl(233, 47%, 7%);
     display:flex;
     justify-content:center;
@@ -77,6 +80,8 @@ main {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color:#fff;
+   
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
